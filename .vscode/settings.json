@@ -20,6 +20,15 @@
     "comment-divider.length": 120,
 
     // Linting Linting
+    "markdownlint.lintWorkspaceGlobs": [
+        "**/*.{md,mkd,mdwn,mdown,markdown,markdn,mdtxt,mdtext,workbook}",
+        "!**/*.code-search",
+        "!**/bower_components",
+        "!**/node_modules",
+        "!**/.git",
+        "!**/vendor",
+        "!LICENSE"
+    ],
     "markdownlint.config": {
         "default": true,
 
