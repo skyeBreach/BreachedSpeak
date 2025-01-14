@@ -50,6 +50,10 @@ To achieve its goal the library intends to add many features such as improved lo
 - [Contributors](#contributors)
 - [License](#license)
 
+## Building and Installing
+
+See the [BUILDING](docs/BUILDING.md) document.
+
 ## Contributing
 
 Due to this projects early state of development we are currently not accepting external contributions.
