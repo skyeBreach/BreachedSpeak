@@ -4,6 +4,9 @@
 # Development
 .dev
 
+# Build and Install
+build
+
 #----------------------------------------------------------------------#
 # C++ Specific
 # Prerequisites
