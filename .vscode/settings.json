@@ -82,6 +82,8 @@
         "bash"
     ],
     "cSpell.words": [
-
+        "BREACHEDSPEAK",
+        "NOLINTNEXTLINE",
+        "SOVERSION"
     ]
 }
