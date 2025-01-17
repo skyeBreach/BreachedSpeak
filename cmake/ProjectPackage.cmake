@@ -9,8 +9,6 @@
 ##--------------------------------------------------------------------------------------------------------------------##
 ## Include Guards
 
-include_guard(DIRECTORY)
-
 if(NOT BreachedSpeak_DEVELOPER_MODE)
     return()
 endif()

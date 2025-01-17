@@ -8,7 +8,10 @@
 
 cmake_minimum_required(VERSION 3.31 FATAL_ERROR)
 
-list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
+list(APPEND CMAKE_MODULE_PATH
+    "${CMAKE_CURRENT_SOURCE_DIR}/cmake"
+    "${CMAKE_CURRENT_BINARY_DIR}/cmake"
+)
 
 include(Prelude)
 
@@ -37,6 +40,9 @@ set(PROJECT_AUTHOR_HOMEPAGE            "https://github.com/skyeBreach")
 
 ## Import module that defines the options to use for this project
 include(ProjectOptions)
+
+##
+include(Dependencies)
 
 ## Define CMakes Output Dirs
 #set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/lib")
