@@ -22,6 +22,11 @@
 		},
 	],
 	"settings": {
+		// Config File Schemas
+		"yaml.schemas": {
+            "https://json.schemastore.org/github-issue-config.json": "/.github/ISSUE_TEMPLATE/config.yml",
+        },
+
 		// Formatting: Indentation
 		"editor.indentSize": 4,
 

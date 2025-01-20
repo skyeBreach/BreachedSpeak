@@ -1,0 +1,89 @@
+name: Feature Request
+description: >
+    Request a new feature to be added to this repository. This should only be used
+    for requesting large new 
+
+    features and not small for changes/enhancements to existing features
+title: "feat: "
+labels:
+    - feature
+body:
+    - type: markdown
+      attributes:
+          value: >
+              Please make sure to search through the open/closed issues before
+              submitting this issue,
+
+              as someone may have already made a similar issue previously!
+
+
+              As we are are all volunteers on this repo, please make sure to take the
+              time to correctly fill this
+
+              issue form out so we can best deal with your issue.
+
+
+              Thank you for filing in an issue, we appreciate that you have taken the
+              time to do this. ❤️
+    - type: input
+      id: name
+      attributes:
+          label: "Name of the Feature:"
+          description: Please provide a human readable name for the feature you are requesting.
+          placeholder: Add TurboRepo
+      validations:
+          required: true
+    - type: textarea
+      id: description
+      attributes:
+          label: "Description of the feature:"
+          description: >
+              Please provide a brief description of the feature you are proposing.
+              This does not need to be 
+
+              long, and can only be a sentence or two.
+      validations:
+          required: true
+    - type: textarea
+      id: reasoning
+      attributes:
+          label: "Reasoning for feature addition:"
+          description: >
+              Why should we add this feature to the repository? What benefits will it
+              give? 
+
+              What problems will it solve?
+      validations:
+          required: true
+    - type: textarea
+      id: solution
+      attributes:
+          label: "Proposed Solution or Addition:"
+          description: >
+              Provide code snippets, gists, packages, or links to an ideal
+              design/api. 
+
+              This is done to help us understand the design for your solution.
+      validations:
+          required: true
+    - type: textarea
+      id: comments
+      attributes:
+          label: "Additional Comments:"
+          description: >
+              Provide any additional information you think the team should know about
+              this issue.
+      validations:
+          required: true
+    - type: checkboxes
+      id: participation
+      attributes:
+          label: Participation
+          options:
+              - label: I am willing to submit a pull request for this change.
+                required: false
+    - type: markdown
+      attributes:
+          value:
+              Please **do not** open a pull request until this issue has been accepted
+              by the team.

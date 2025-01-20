@@ -1,0 +1,80 @@
+name: Change/Enhancement Request
+description: Request a change or an enhancement to this repository
+title: "change: "
+labels:
+    - enhancement
+    - change
+body:
+    - type: markdown
+      attributes:
+          value: >
+              Please make sure to search through the open/closed issues before
+              submitting this issue,
+
+              as someone may have already made a similar issue previously!
+
+
+              As we are are all volunteers on this repo, please make sure to take the
+              time to correctly fill this 
+
+              issue form out so we can best deal with your issue.
+
+
+              Thank you for filing in an issue, we appreciate that you have taken the
+              time to do this. ❤️
+    - type: textarea
+      id: description
+      attributes:
+          label: "Description of the change:"
+          description: >
+              Please provide a brief description of the change you are proposing. This
+              does not need to be 
+
+              long, and can only be a sentence or two.
+      validations:
+          required: true
+    - type: textarea
+      id: reasoning
+      attributes:
+          label: "Reason for change/enhancement:"
+          description: >
+              Provide valid reason(s) why this change/enhancement should be added to
+              this repo. 
+
+
+              If this change/enhancement is to solve a problem, then specify this
+              problem (and how this change fixes it) here.
+      validations:
+          required: true
+    - type: textarea
+      id: solution
+      attributes:
+          label: "Proposed Solution or Addition:"
+          description: >
+              Provide code snippets, gists, packages, or links to an ideal
+              design/api. 
+
+              This is done to help us understand the design for your solution.
+      validations:
+          required: true
+    - type: textarea
+      id: comments
+      attributes:
+          label: "Additional Comments:"
+          description: >
+              Provide any additional information you think the team should know about
+              this issue.
+      validations:
+          required: true
+    - type: checkboxes
+      id: participation
+      attributes:
+          label: Participation
+          options:
+              - label: I am willing to submit a pull request for this change.
+                required: false
+    - type: markdown
+      attributes:
+          value:
+              Please **do not** open a pull request until this issue has been accepted
+              by the team.
