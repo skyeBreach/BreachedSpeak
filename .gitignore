@@ -3,6 +3,7 @@
 
 # Development
 .dev
+kanbn.json
 
 # Build and Install
 out

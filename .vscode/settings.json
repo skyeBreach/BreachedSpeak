@@ -1,91 +1,14 @@
 {
-    "[markdown]": {
-        "editor.formatOnSave": true,
-        "editor.formatOnPaste": true,
-        "editor.codeActionsOnSave": {
-            "source.fixAll.markdownlint": "always"
-        }
-    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
 
-    // Licensing
-    "licenser.license": "MIT",
-
-    // Project Notes Portable Config
-    "pnotes.addLocalProjectsNoteFolderToGitIgnoreFile": false,
-    "pnotes.localNotesFolder": ".dev/notes",
-    "pnotes.createGlobalProjectNotesGuideFile": false,
-    "pnotes.createGitIgnoreFileIfNotFound": false,
-
-    // Comment Formatting
-    "comment-divider.length": 120,
-
-    // Linting Linting
-    "markdownlint.lintWorkspaceGlobs": [
-        "**/*.{md,mkd,mdwn,mdown,markdown,markdn,mdtxt,mdtext,workbook}",
-        "!**/*.code-search",
-        "!**/bower_components",
-        "!**/node_modules",
-        "!**/.git",
-        "!**/vendor",
-    ],
-    "markdownlint.config": {
-        "default": true,
-
-        "MD003": { "style": "atx" },
-        "MD004": {
-            "style": "dash"
-        },
-        "MD005": false,
-        "MD007": { "indent": 4},
-        "MD009": {
-            "br_spaces": 0
-        },
-        "MD010": false,
-        //"MD027": true,
-        //"MD028": true,
-        "MD031": true,
-        "MD033": false,
-        "MD044": false,
-        "MD046": {
-            "style": "fenced"
-        },
-        "MD048": {
-            "style": "backtick"
-        },
-        "MD049": {
-            "style": "asterisk"
-        },
-        "MD050": {
-            "style": "asterisk"
-        }
-    },
-
-    // Spell Checker Base Config
-    "cSpell.language": "en_US",
-    "cSpell.allowCompoundWords": false,
-    "cSpell.caseSensitive": false,
-    "cSpell.useGitignore": true,
-
-    // Spell Checker Dictionary Definitions
-    "cSpell.dictionaries": [
-        // General Dictionaries
-        "companies",
-        "softwareTerms",
-
-        // Programming Language Dictionaries
-        "typescript",
-        "python",
-        "powershell",
-        "html",
-        "css",
-        "cpp",
-        "latex",
-        "bash"
-    ],
-    "cSpell.words": [
-        "BREACHEDSPEAK",
-        "NOLINTNEXTLINE",
-        "SOVERSION"
-    ],
-    "editor.indentSize": 4
+        "**/.dev/": true,
+        "**/.github/": true,
+        "**/out": true,
+    }
 }
