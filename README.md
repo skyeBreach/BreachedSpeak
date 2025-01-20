@@ -1,4 +1,4 @@
-<!-- markdownlint-disable MD041 -->
+<!-- markdownlint-disable-file MD041 -->
 <div align="center">
     <h1>
         <a href="https://github.com/skyeBreach/BreachedSpeak">
@@ -46,13 +46,14 @@ To achieve its goal the library intends to add many features such as improved lo
 
 ## 📝 Table of Contents <!-- omit in toc -->
 
+- [Building and Installing](#building-and-installing)
 - [Contributing](#contributing)
 - [Contributors](#contributors)
 - [License](#license)
 
 ## Building and Installing
 
-See the [BUILDING](docs/BUILDING.md) document.
+See the [BUILDING](docs/pages/BUILDING.md) document.
 
 ## Contributing
 
