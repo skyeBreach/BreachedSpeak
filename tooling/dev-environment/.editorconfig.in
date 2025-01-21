@@ -5,7 +5,6 @@
 
 ##  For more information on this file, please see https://editorconfig.org/
 
-
 ## True when this library/project is at the top level.
 ## Should only be true for developers of this project/package
 root = @BreachedSpeak_EditConf_IS_ROOT@
@@ -25,4 +24,3 @@ tab_width = 4
 indent_style = space
 indent_size = 2
 tab_width = 2
-
