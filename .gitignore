@@ -4,6 +4,7 @@
 # Development
 .dev
 kanbn.json
+**/BuildTest.sh
 
 # Build and Install
 out
