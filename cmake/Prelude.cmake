@@ -38,3 +38,9 @@ set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 set(IDE_FOLDER "")
 
 ##--------------------------------------------------------------------------------------------------------------------##
+## Development Environment Tooling
+
+include(dev-environment/EditorConfig)
+GenerateEditorConfig()
+
+##--------------------------------------------------------------------------------------------------------------------##

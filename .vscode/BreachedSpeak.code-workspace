@@ -27,9 +27,6 @@
             "https://json.schemastore.org/github-issue-config.json": "/.github/ISSUE_TEMPLATE/config.yml",
         },
 
-		// Formatting: Indentation
-		"editor.indentSize": 4,
-
 		// Licensing
 		"licenser.license": "MIT",
 
@@ -117,5 +114,8 @@
 			"NOLINTNEXTLINE",
 			"SOVERSION"
 		],
+		"editorconfig.generateAuto": false,
+		"shellformat.useEditorConfig": true,
+		"markdown.extension.tableFormatter.normalizeIndentation": true,
 	}
 }

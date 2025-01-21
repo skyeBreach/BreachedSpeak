@@ -9,8 +9,9 @@
 cmake_minimum_required(VERSION 3.31 FATAL_ERROR)
 
 list(APPEND CMAKE_MODULE_PATH
-    "${CMAKE_CURRENT_SOURCE_DIR}/cmake"
-    "${CMAKE_CURRENT_BINARY_DIR}/cmake"
+	"${CMAKE_CURRENT_SOURCE_DIR}/cmake"
+	"${CMAKE_CURRENT_BINARY_DIR}/cmake"
+	"${CMAKE_CURRENT_SOURCE_DIR}/tooling"
 )
 
 include(Prelude)
